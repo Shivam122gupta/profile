@@ -3,148 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shivam Gupta | Data Science Portfolio</title>
+    <title>Shivam Gupta | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- NAVBAR -->
-    <nav>
-        <h2>Minion</h2>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+<!-- NAVBAR -->
+<nav class="navbar">
+    <h1 class="logo">MINION</h1>
+    <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
 
-    <!-- HERO -->
-    <section class="hero">
-        <div class="hero-content">
-            <img src="photo.jpeg" alt="Shivam Gupta" class="profile-pic">
+<!-- HERO -->
+<header class="hero">
+    <div class="hero-content">
+        <img src="photo.jpeg" class="profile-pic" alt="Shivam Gupta">
 
-            <h1 class="fade-in">
-                Hi, I'm <span>Shivam Gupta</span>
-            </h1>
+        <h2>Shivam Gupta</h2>
+        <p>B.Tech CSE · Data Science & Machine Learning</p>
 
-            <p class="slide-up">
-                B.Tech CSE | Data Science & Machine Learning Enthusiast
-            </p>
-
-            <a href="#projects" class="btn glow">View Projects</a>
+        <div class="buttons">
+            <a href="#projects" class="btn red">View Projects</a>
+            <a href="https://github.com/Shivam122gupta" target="_blank" class="btn gray">GitHub</a>
         </div>
-    </section>
+    </div>
+</header>
 
-    <!-- ABOUT -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            I am a Computer Science Engineering student at
-            <b>Babu Banarasi Das University, Lucknow</b>.
-            I am passionate about Data Science, Machine Learning,
-            and AI-driven applications.
-        </p>
-        <p>
-            I enjoy working with real-world datasets, building ML models,
-            and contributing to open-source projects.
-        </p>
-    </section>
+<!-- ABOUT -->
+<section class="row" id="about">
+    <h3>About Me</h3>
+    <p>
+        I am a Computer Science Engineering student at Babu Banarasi Das University, Lucknow.
+        My primary interests are Data Science, Machine Learning, and building data-driven
+        solutions for real-world problems. I enjoy working with datasets, training models,
+        and contributing to open-source communities.
+    </p>
+</section>
 
-    <!-- SKILLS -->
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills-grid">
-            <div>Python</div>
-            <div>SQL</div>
-            <div>Pandas</div>
-            <div>NumPy</div>
-            <div>Matplotlib</div>
-            <div>Scikit-learn</div>
-            <div>Git & GitHub</div>
-            <div>Data Analysis</div>
-        </div>
-    </section>
+<!-- SKILLS -->
+<section class="row" id="skills">
+    <h3>Skills</h3>
+    <div class="cards">
+        <div class="card">Python</div>
+        <div class="card">SQL</div>
+        <div class="card">Pandas</div>
+        <div class="card">NumPy</div>
+        <div class="card">Matplotlib</div>
+        <div class="card">Scikit-learn</div>
+        <div class="card">Git & GitHub</div>
+        <div class="card">Data Analysis</div>
+        <div class="card">Machine Learning</div>
+    </div>
+</section>
 
-    <!-- PROJECTS -->
-    <section id="projects">
-        <h2>Projects</h2>
-
-        <div class="project-card">
-            <h3>Exploratory Data Analysis</h3>
+<!-- PROJECTS -->
+<section class="row" id="projects">
+    <h3>Projects</h3>
+    <div class="cards">
+        <div class="card large">
+            <h4>Exploratory Data Analysis</h4>
             <p>
-                Performed data cleaning, statistical analysis,
-                and created insightful visualizations using Python.
-            </p>
-            <p>
-                <a href = "https://github.com/Shivam122gupta/Iphone-Project-Using-PNMS" target="_blank">
-                    Project Repo
-                </a>
+                Analyzed real-world datasets, handled missing values and outliers,
+                and created visual insights using Pandas, NumPy, and Matplotlib.
             </p>
         </div>
 
-        <div class="project-card">
-            <h3>Machine Learning Classification Model</h3>
+        <div class="card large">
+            <h4>Machine Learning Classification</h4>
             <p>
-                Built Logistic Regression and Decision Tree models
-                with feature engineering and evaluation metrics.
-            </p>
-            <p>
-                <a href = "https://github.com/Shivam122gupta/IPL-MATCH-WINNER-PROBABILITY" target="_blank">
-                    Project Repo
-                </a>
+                Built Logistic Regression and Decision Tree models with feature
+                engineering and evaluated performance using accuracy and F1-score.
             </p>
         </div>
 
-        <div class="project-card">
-            <h3>SQL Database Analysis</h3>
+        <div class="card large">
+            <h4>SQL Database Analysis</h4>
             <p>
-                Designed normalized databases and wrote complex SQL
-                queries to extract meaningful insights.
+                Designed normalized database schemas and wrote optimized SQL queries
+                to extract meaningful insights from data.
             </p>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- EXPERIENCE -->
-    <section id="experience">
-        <h2>Experience</h2>
-
-        <div class="experience-box">
-            <h3>Open Source Contributor – GSSoC</h3>
-            <p>Oct 2024 – December 2024 | Remote</p>
-            <ul>
-                <li>Contributed to ML & Data Science projects</li>
-                <li>Improved features and fixed bugs using Python</li>
-                <li>Collaborated with global developers</li>
-            </ul>
+<!-- EXPERIENCE -->
+<section class="row" id="experience">
+    <h3>Experience</h3>
+    <div class="cards">
+        <div class="card large">
+            <h4>Open Source Contributor – GSSoC</h4>
+            <p>
+                Contributed to machine learning and data science open-source projects.
+                Collaborated with developers globally, improved features, fixed bugs,
+                and followed best practices using Git and GitHub.
+            </p>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- CONTACT -->
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>📧 Email: 22shivamgupta05@gmail.com</p>
-        <p> Phone no: 8543957115 </p>
-        <p>📍 Lucknow, India</p>
-        <p>
-            🔗 <a href="https://linkedin.com/in/shivam-gupta-a13ab1330" target="_blank">
-                LinkedIn Profile
-            </a>
-        </p>
-        <p> 
-            🔗 <a href = "https://github.com/Shivam122gupta" target = "_blank">
-                Github Profile
-            </a>
-        </p>
-        <p>
-            🚀 Streamlit Portfolio: <b>Add your Streamlit link here</b>
-        </p>
-    </section>
+<!-- EDUCATION -->
+<section class="row">
+    <h3>Education</h3>
+    <div class="cards">
+        <div class="card large">
+            <h4>B.Tech in Computer Science Engineering</h4>
+            <p>
+                Babu Banarasi Das University, Lucknow<br>
+                2024 – 2028 (Expected)
+            </p>
+        </div>
+    </div>
+</section>
 
-    <footer>
-        <p>© 2026 Shivam Gupta | Built with ❤️</p>
-    </footer>
+<!-- CONTACT -->
+<section class="row" id="contact">
+    <h3>Contact</h3>
+    <p>Email: <b>sg6908240@gmail.com</b></p>
+    <p>
+        LinkedIn:
+        <a href="https://linkedin.com/in/shivam-gupta-a13ab1330" target="_blank">
+            linkedin.com/in/shivam-gupta-a13ab1330
+        </a>
+    </p>
+</section>
+
+<footer>
+    © 2026 Shivam Gupta
+</footer>
 
 </body>
 </html>
